@@ -6,7 +6,7 @@ const PORT = 3000;
 app.get('/status', (req, res) => {
   res.json({
     status: "ok",
-    message: "API is running successfully!"
+    message: "API is running automatically via Jenkins!"
   });
 });
 
